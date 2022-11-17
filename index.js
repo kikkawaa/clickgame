@@ -22,8 +22,8 @@ document.getElementById("B3").addEventListener("click", function () {
     document.body.style.backgroundColor = "rgb(34, 200, 188)";
     judgment(ans);
 });
-console.log(ans);
-console.log(correct);
+// console.log(ans);
+// console.log(correct);
 
 function judgment(num){
     if(correct==num){
